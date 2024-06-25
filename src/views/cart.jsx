@@ -16,7 +16,7 @@ export default function Cart({
     <div className="nav">
       <div className="name">
         <RestaurantIcon className="rest-Logo"></RestaurantIcon>
-        <h2 className="cart_h1">Zamzam Resturent</h2>
+        <h2 className="cart_h1">Zamzam Restaurant</h2>
       </div>
       <Badge badgeContent={countItem} color="success" className="badge">
         <button onClick={showFunc} className="cart_button">
