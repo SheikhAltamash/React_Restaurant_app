@@ -6,7 +6,7 @@ import Cart from './views/cart';
 
 function App() {
   const [count, setCount] = useState(0);
-  let [showcart, setShowcart] = useState(true);
+  let [showcart, setShowcart] = useState(false);
   let [cardData, setCardData] = useState([]);
   let [countItem, setCountItem] = useState(0);
   let showCart = () => {
